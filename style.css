@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    color: white;
 }
 
 .part-1 {
@@ -29,12 +28,15 @@ a {
 .header-content {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-top: 80px;
     padding: 0px 60px;
     gap: 60px;
+    color: white;
+
 }
 
-#btn1 {
+#btn-1 {
     background-color: yellow;
     border-style: none;
     padding: 8px 16px;
@@ -42,3 +44,15 @@ a {
     
 }
 
+.ss-img {
+    width: 300px;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
